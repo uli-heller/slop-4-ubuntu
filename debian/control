@@ -1,0 +1,16 @@
+Source: maim
+Section: x11
+Priority: optional
+Maintainer: Patrick O'Doherty <p@trickod.com>
+Build-Depends: debhelper (>= 9), cmake, ruby-ronn, libimlib2-dev, libxrandr-dev, libxfixes-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/naelstrof/maim
+Vcs-Git: https://github.com/naelstrof/maim.git
+
+Package: maim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: takes screenshts of your desktop
+ maim (make image) takes screenshots of your desktop. It has options to take
+ only a region, and relies on slop to query for regions. maim is supposed to be
+ an improved scrot.
