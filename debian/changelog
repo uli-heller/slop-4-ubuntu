@@ -1,5 +1,5 @@
-maim (3.3.41-1) unstable; urgency=low
+slop (4.2.18-1dp01~trusty1) trusty; urgency=low
 
-  * Initial release (Closes: #819330)
+  * Initial release
 
- -- Patrick O'Doherty <p@trickod.com>  Sun, 13 Mar 2016 21:06:37 -0700
+ -- Uli Heller <uli.heller@daemons-point.com>  Sun, 19 Jun 2016 12:06:12 +0200

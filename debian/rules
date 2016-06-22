@@ -23,7 +23,6 @@ include /usr/share/dpkg/default.mk
 
 override_dh_auto_build:
 	dh_auto_build --
-	ronn -r man-src/maim.1.ronn
 
 override_dh_auto_clean:
 	dh_auto_clean --

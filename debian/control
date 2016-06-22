@@ -1,16 +1,19 @@
-Source: maim
+Source: slop
 Section: x11
 Priority: optional
 Maintainer: Patrick O'Doherty <p@trickod.com>
-Build-Depends: debhelper (>= 9), cmake, ruby-ronn, libimlib2-dev, libxrandr-dev, libxfixes-dev
+Build-Depends: debhelper (>= 9), cmake, ruby-ronn, libimlib2-dev, libxrandr-dev, libxfixes-dev,
+  libglm-dev, libglew-dev
 Standards-Version: 3.9.6
-Homepage: https://github.com/naelstrof/maim
-Vcs-Git: https://github.com/naelstrof/maim.git
+Homepage: https://github.com/naelstrof/slop
+Vcs-Git: https://github.com/naelstrof/slop.git
 
-Package: maim
+Package: slop
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: takes screenshts of your desktop
- maim (make image) takes screenshots of your desktop. It has options to take
- only a region, and relies on slop to query for regions. maim is supposed to be
- an improved scrot.
+Description: slop - select operations - selects desktop regions
+ slop (Select Operation) is an application that queries for a selection from
+ the user and prints the region to stdout. It grabs the mouse and turns it
+ into a crosshair, lets the user click and drag to make a selection (or click
+ on a window) while drawing a pretty box around it, then finally prints the
+ selection's dimensions to stdout.

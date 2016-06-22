@@ -1,4 +1,4 @@
 # Compulsory line, this is a version 3 file
 version=3
-opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/maim-$1\.tar\.gz/ \
-  https://github.com/naelstrof/maim/tags .*/v?(\d\S*)\.tar\.gz
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/slop-$1\.tar\.gz/ \
+  https://github.com/naelstrof/slop/tags .*/v?(\d\S*)\.tar\.gz

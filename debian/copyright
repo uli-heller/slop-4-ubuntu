@@ -1,10 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: maim
-Source: https://github.com/naelstrof/maim
+Upstream-Name: slop
+Source: https://github.com/naelstrof/slop
 
 Files: *
 Copyright: 2014-2016 Dalton Nell
- 2014-2016 Maim Contributors (https://github.com/naelstrof/maim/graphs/contributors)
+ 2014-2016 Slop Contributors (https://github.com/naelstrof/slop/graphs/contributors)
 License: GPL-3+
 
 Files: debian/*
